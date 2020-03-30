@@ -1,0 +1,12 @@
+Uma rotina definida dentro do loop (1 timer só)
+ao iniciar, verifica quais canais vão ler por ali
+seta flags de leitura dos canais dentro da rotina 
+
+ROTINA DE TIMER
+	SE FLAG1 = SETADA
+		LE POR AQUI
+	SE NÃO
+		IGNORA
+
+--------------------------------------------------------------------------
+char interruptStatus1=1,interruptStatus2=1,interruptStatus3=1,interruptStatus4=0,interruptStatus5=0,oneWireStatus=0;
